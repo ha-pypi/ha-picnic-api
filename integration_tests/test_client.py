@@ -1,4 +1,4 @@
-from python_picnic_api import PicnicAPI
+from ha_picnic_api import PicnicAPI
 from dotenv import load_dotenv
 import os
 

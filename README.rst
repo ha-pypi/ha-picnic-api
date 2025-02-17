@@ -1,10 +1,8 @@
 """""""""""""""""
-Python-Picnic-API
+HA-Picnic-API
 """""""""""""""""
 
-.. image:: https://camo.githubusercontent.com/cd005dca0ef55d7725912ec03a936d3a7c8de5b5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6275792532306d6525323061253230636f666665652d646f6e6174652d79656c6c6f772e737667
-    :target: https://www.buymeacoffee.com/MikeBrink
-    :alt: Buy me a coffee
+Forked from version made by [Mike Brink](https://github.com/MikeBrink/python-picnic-api)
 
 Unofficial Python wrapper for the Picnic_ API. While not all API methods have been implemented yet, you'll find most of what you need to build a working application are available. 
 
@@ -17,7 +15,7 @@ Getting started
 ===============
 The easiest way to install is directly from pip::
 
-    $ pip install python-picnic-api
+    $ pip install ha-picnic-api
 
 
 -----
@@ -28,7 +26,7 @@ To login:
 
 .. code-block:: python
 
-    from python_picnic_api import PicnicAPI
+    from ha_picnic_api import PicnicAPI
 
     picnic = PicnicAPI(username='username', password='password', country_code="NL")
 

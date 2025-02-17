@@ -1,21 +1,21 @@
 [tool.poetry]
-name = "python-picnic-api"
-version = "1.1.0"
+name = "ha-picnic-api"
+version = "2.0.0"
 description = ""
 license = "Apache-2.0"
 authors = ["Mike Brink <mjh.brink@icloud.com>"]
 readme = "README.rst"
-repository = "https://github.com/MikeBrink/python-picnic-api"
+repository = "https://github.com/ha-pypi/ha-picnic-api"
 
 [tool.poetry.dependencies]
-python = "^3.6"
-requests = "^2.24.0"
+python = ">=3.12"
+requests = "2.32.3"
 
-[tool.poetry.dev-dependencies]
-pytest = "^5.2"
-flake8 = "^3.8.3"
-black = {version = "^19.10b0", allow-prereleases = true}
-python-dotenv = "^0.15.0"
+[tool.poetry.group.dev.dependencies]
+pytest = "8.3.4"
+ruff = "0.9.6"
+black = "25.1.0"
+python-dotenv = "1.0.1"
 
 [build-system]
 requires = ["poetry-core"]

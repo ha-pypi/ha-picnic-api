@@ -2,7 +2,6 @@ from hashlib import md5
 
 from .helper import _tree_generator, _url_generator, _get_category_name
 from .session import PicnicAPISession, PicnicAuthError
-
 DEFAULT_URL = "https://storefront-prod.{}.picnicinternational.com/api/{}"
 DEFAULT_COUNTRY_CODE = "NL"
 DEFAULT_API_VERSION = "15"

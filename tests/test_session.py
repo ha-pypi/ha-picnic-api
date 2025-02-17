@@ -3,7 +3,7 @@ from unittest.mock import patch
 
 from requests import Session
 
-from python_picnic_api.session import PicnicAPISession
+from ha_picnic_api.session import PicnicAPISession
 
 
 class TestSession(unittest.TestCase):
