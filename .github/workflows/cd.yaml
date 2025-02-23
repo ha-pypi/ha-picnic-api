@@ -1,5 +1,8 @@
 on:
+  # Only run on tag pushes
   push:
+    tags:
+      - '*'
 
 jobs:
   build:
